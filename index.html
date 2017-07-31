@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NewCollage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Highly unique creative theme built with Bootstrap">
+<meta name="author" content="Designova">
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/extension.css" rel="stylesheet">
+<link href="assets/css/typography.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="stylesheets/portfolio.css" rel="stylesheet"/>
+<link href="stylesheets/isotope.css" rel="stylesheet">
+<link href="stylesheets/colorbox.css" rel="stylesheet"/>
+<link href="stylesheets/flexslider.css" rel="stylesheet"/>  
+<link href="stylesheets/hoverdir.css" rel="stylesheet"/>
+<link href="stylesheets/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet"/>
+<link href="stylesheets/intro.css" rel="stylesheet" />
+<link href="stylesheets/timeline.css" rel="stylesheet" />
+<link href="stylesheets/responsive-nav.css" rel="stylesheet">
+<link href="stylesheets/style.css" rel="stylesheet">
+
+<script src="javascripts/modernizr.custom.js"></script>
+
+
+<link rel="shortcut icon" href="favicon.ico">
+
+<style>
+    #ticker ul.tweet_list {
+        min-height: 80px;
+        height:120px;
+        overflow-y:hidden;
+    }
+    #ticker .tweet_list li {
+        min-height: 80px;
+        height:120px;
+    }
+    #colorbox{
+        min-height: 1300px !important;
+    }
+    #cboxTitle{
+        height: 30px !important;
+        position: absolute !important;
+        padding: 0px !important;
+    }
+    #cboxClose{
+        position: absolute !important;
+        margin-top: 15px !important;
+        right: 0px !important
+    }
+    #cboxClose:hover{
+        background: #777 url(images/close.png) no-repeat center center
+    }
+    #cboxContent{
+        padding-top: 37px !important;
+    }
+</style>
+
+</head>
+
+<body id="body">
+
+
+<!--MAIN WRAPPER--> 
+<div class="main-wrapper">
+
+<!-- Mobile Only Navigation - 2 types each for (480px to 640px) and (640px to 960px) wide device screens -->
+<header id="mobile-header" class="clearfix hidden-desktop">
+    <div id="nav">
+      <ul>
+        <li><a class="scroll-link" href="#showcase" data-soffset="0">Showcase</a></li>
+        <li><a class="scroll-link" href="#about" data-soffset="0">About</a></li>
+        <li><a class="scroll-link" href="#services" data-soffset="0">Services</a></li>
+        <li><a class="scroll-link" href="#newsreel" data-soffset="0">Newsreel</a></li>
+        <li><a class="scroll-link" href="#portfolio" data-soffset="0">Portfolio</a></li>
+        <li><a class="scroll-link" href="#contact" data-soffset="0">Contact</a></li>
+      </ul>
+    </div>
+</header>
+    
+
+<div id="badge">
+	<img alt="renova" title="renova" src="images/badge.png"/>
+</div>
+
+<!-- INTRO SPLASH -->
+	<section class="intro master-section">
+        <nav id="intro-nav">
+            <ul class="ca-menu">
+                    <li>
+                        <a class="scroll-link" href="#showcase" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/14.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Showcase</h2>
+                                <h3 class="ca-sub">Our best snaps</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-link" href="#about" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/01.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">About</h2>
+                                <h3 class="ca-sub">More from our story</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-link" href="#services" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/03.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Services</h2>
+                                <h3 class="ca-sub">What we can offer</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-link" href="#newsreel" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/06.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Newsreel</h2>
+                                <h3 class="ca-sub">What's happening</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-link" href="#portfolio" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/04.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Portfolio</h2>
+                                <h3 class="ca-sub">Our best works</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-link" href="#contact" data-soffset="100">
+                            <span class="ca-icon"><img alt="renova" title="renova" src="images/icons/13.png"/></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Contact</h2>
+                                <h3 class="ca-sub">Get in touch</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            
+        </nav>
+
+        <a class="scroll-link" href="#showcase" data-soffset="100"><div id="scroll"></div></a>
+	</section>
+
+
+<!-- Desktop Only NAVIGATION -->
+<div class="navigation hidden-phone hidden-tablet">
+	<ul id="main-nav">
+		<li>
+            <a class="scroll-link" href="#showcase" id="showcase-linker" data-soffset="100">showcase</a>
+        </li>
+		<li>
+            <a class="scroll-link" href="#about" id="about-linker" data-soffset="100">about</a>
+        </li>
+		<li>
+            <a class="scroll-link" href="#services" id="services-linker" data-soffset="100">services</a>
+        </li>
+		<li class="logo-wrap">
+            <a class="scroll-link logo" href="#body" data-soffset="100"><img alt="renova" title="renova" src="images/logo.png"/></a>
+        </li>
+		<li>
+            <a class="scroll-link" href="#newsreel" id="newsreel-linker" data-soffset="100">newsreel</a>
+        </li>
+		<li>
+            <a class="scroll-link" href="#portfolio" id="portfolio-linker" data-soffset="100">portfolio</a>
+        </li>
+		<li>
+            <a class="scroll-link" href="#contact" id="contact-linker" data-soffset="100">contact</a>
+        </li>
+	</ul>
+</div>
+			
+
+
+<!-- SHOWCASE BLOCK -->
+<section id="showcase" class="clearfix master-section">	
+<div class="wrapper">
+	<div id="container-folio" class="scroll-content beneath-intro">	
+
+
+<ul id="og-grid" class="og-grid da-thumbs">
+			
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+	<a class="fancythumb" href="images/showcase/full/01.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/01.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+<!-- FOLIO ITEM -->
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/02.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/02.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/03.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/03.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+	<a class="fancythumb" href="images/showcase/full/04.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/04.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/05.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/05.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+<!-- FOLIO ITEM -->
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/06.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/06.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/07.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/07.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/08.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/08.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/09.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/09.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+<!-- FOLIO ITEM -->
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/10.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/10.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/11.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/11.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/12.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/12.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/13.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/13.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+<!-- FOLIO ITEM -->
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/14.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/14.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/15.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/15.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+
+<!-- FOLIO ITEM -->
+<li class="folio-image-box box">
+    <a class="fancythumb" href="images/showcase/full/16.jpg" title="Title Here">
+		<img alt="renova" title="renova" src="images/showcase/thumbs/16.jpg"/>
+		<div><span>Title Here</span></div>
+	</a>
+</li>
+	
+			</ul>	
+	</div><!-- CONTAINER FOLIO-->
+</div><!-- WRAPPER -->
+</section><!-- CONTENT-->
+
+
+
+
+
+
+<section id="about" class="master-section">
+
+	<section class="container-fluid inner mob-bg-remove">
+    <div class="row-fluid">
+        <section class="container">
+            <div class="row add-top-main">
+                <article class="span12">
+                	<div class="thumb-icon"><img alt="renova" title="renova" src="images/icons/01.png"/></div>
+                	<h1 class="main-heading"><span>About</span></h1>
+                	<h3 class="promo-text"><span>Lorem ipsum dolor sit amet, consectetur..</span></h3>
+                </article>
+            </div>
+        </section><!--/ container-->        
+    </div><!--/ row-fluid-->   
+    </section><!--/ container-->       
+
+</section><!--/ page-->
+
+
+<section id="about-mid">
+
+    <section class="container-fluid inner mob-bg-remove">
+    <div class="row-fluid">
+        <section class="container">
+            <div class="row">
+                <article class="span12">
+                    <div id="ShowCarousel-03" class="carousel remove-bottom slide point-left">
+                        <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <div class="about-promo text-center"><p><span>We create beautiful websites and digital strategies that make organizations more successful.</span></p>
+                                    <img alt="renova" title="renova" class="banner-screen" src="images/slider/01.png"/>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="about-promo text-center"><p><span>Giants from corporate and creative world have been our friends since we started.</span></p>
+                                    <img alt="renova" title="renova" class="banner-screen" src="images/slider/02.png"/>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="about-promo text-center"><p><span>Working with Renova is fun like playing games, having coffee and hanging on FB.</span></p>
+                                    <img alt="renova" title="renova" class="banner-screen" src="images/slider/03.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- Carousel nav -->
+                                <a class="carousel-control left" href="#ShowCarousel-03" data-slide="prev">&lsaquo;</a>
+                                <a class="carousel-control right" href="#ShowCarousel-03" data-slide="next">&rsaquo;</a>
+                        </div>
+                </article>
+            </div>
+        </section><!--/ container-->        
+    </div><!--/ row-fluid-->   
+    </section><!--/ container-->       
+
+</section><!--/ page-->
+
+
+<section id="about-end">
+
+    <section class="container-fluid inner mob-bg-remove">
+    <div class="row-fluid">
+        <section class="container">
+
+            <div class="row add-top">
+                <article class="span12">
+                    <div class="wrap-pad">
+                        <div class="shoutout">A great design does not come from an hour or two, but there are countless days of hardwork behind everything that looks nice, and the efforts behind it crafts a stunning and unique experience. That's what we call as a perfect design!
+                        <h4>John Doe, Founder</h4>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row add-top">
+                <article class="span8">
+                    <div class="wrap-pad">
+                        <h3 class="inner-sub-heading">Renova Story</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante, non dapibus nisi. Praesent et libero accumsan tellus bibendum congue quis nec arcu. Nunc aliquet nibh in urna tincidunt pellentesque.<br/><br/>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante, non dapibus nisi. Praesent et libero accumsan tellus bibendum congue quis nec arcu. Nunc aliquet nibh in urna tincidunt pellentesque. Curabitur lobortis tempus dignissim. In libero est, faucibus facilisis bibendum a, cursus eu purus. Fusce a urna lorem. Morbi vel velit tellus, et rhoncus diam.</p>
+                    </div>
+                    
+                </article>
+                <article class="span4">
+                    <div class="wrap-pad">
+                        <article class="skillset">
+
+                            <h3>Skill 80%</h3>
+                            <div class="progress progress-danger">
+                                <div class="bar width80"></div>
+                            </div>
+
+                            <h3>Skill 60%</h3>
+                            <div class="progress progress-danger">
+                                <div class="bar width60"></div>
+                            </div>
+
+                            <h3>Skill 78%</h3>
+                            <div class="progress progress-danger">
+                                <div class="bar width78"></div>
+                            </div>
+
+                            <h3>Skill 95%</h3>
+                            <div class="progress progress-danger">
+                                <div class="bar width95"></div>
+                            </div>
+
+                        </article>
+                    </div>
+                </article>
+            </div>  
+        
+
+        </section><!--/ container-->        
+    </div><!--/ row-fluid-->   
+    </section><!--/ container-->       
+
+</section><!--/ page-->
+
+
+
+
+<section id="portfolio" class="bg-dark master-section">
+
+    <section class="container-fluid inner mob-bg-remove">
+    <div class="row-fluid add-bottom-main">
+        <section class="container">
+            <div class="row add-top-main">
+                <article class="span12">
+                    <div class="thumb-icon"><img alt="renova" title="renova" src="images/icons/04-in.png"/></div>
+                    <h1 class="main-heading"><span>Portfolio</span></h1>
+                    <h3 class="promo-text-alt darken"><span>Lorem ipsum dolor sit amet, consectetur..</span></h3>
+                </article>
+            </div>
+
+            <div class="row">
+            <article class="span12">
+            <section id="options" class="clearfix">
+                <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                <li class="inner-link"><a href="#filter" data-option-value="*" class="selected">all</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".branding">branding</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".web">web</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".ecommerce">ecommerce</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".print">print</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".digital">digital</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".modern">modern</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".creative">creative</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=".modern, .creative">modern and creative</a></li>
+                <li class="inner-link"><a href="#filter" data-option-value=":not(.web)">All, not including web</a></li>
+                </ul>
+            </section> <!-- #options -->
+            </article><!-- span12 : ends -->
+        </div><!-- row : ends -->
+
+
+        <div class="row">
+                <article class="span12">
+
+                    <div id="container" class="clearfix portfolio">
+    
+      
+          
+    
+    <div class="element web height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p01.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element branding height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p02.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element digital height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p03.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+    
+
+
+        <div class="element print height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p07.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element creative height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p04.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element modern height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p06.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element ecommerce height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p05.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element branding height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p08.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+    
+    
+      <div class="element web height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p09.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element print height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p10.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element digital height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p11.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+      
+        
+
+        <div class="element creative height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p12.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element print height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p13.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element modern height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p14.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element web height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p15.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+
+        <div class="element branding height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p01.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+        
+
+        <div class="element creative height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p02.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element modern height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p03.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element print height-02 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p04.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+
+        <div class="element ecommerce height-01 folio-item">
+            <img alt="renova" title="renova" src="images/portfolio/p05.jpg"/>
+            <a class="fancythumb" href="images/portfolio/full/dummy.jpg" title="Title Here"><div class="icon-zoom-sosa folio-trigger-icon"></div></a>
+            <a href="project-ajax.html" target="_blank" class="zoom-info" title="Title Here"><div class="icon-link-sosa folio-trigger-icon"></div></a>
+            <h5 class="folio-subtitle titles">Caption</h5>
+        </div>
+
+    
+  </div> <!-- #container -->
+                    
+                </article><!-- span12 : ends -->
+            </div><!-- row : ends -->   
+
+
+            
+        </section><!--/ container-->        
+    </div><!--/ row-fluid--> 
+</section>
+</section> 
+
+
+
+
+<section id="contact" class="bg-dark master-section">
+
+    <section class="container-fluid inner mob-bg-remove">
+    <div class="row-fluid">
+        <section class="container">
+            <div class="row add-top-main">
+                <article class="span12">
+                    <div class="thumb-icon"><img alt="renova" title="renova" src="images/icons/13.png"/></div>
+                    <h1 class="main-heading"><span>Contact</span></h1>
+                    <h3 class="promo-text"><span>Lorem ipsum dolor sit amet, consectetur..</span></h3>
+                </article>
+            </div>
+
+            <div class="row">
+                    <article class="span12 text-center">
+                        <div id="fname"  class="alert alert-error error add-top">
+                        Name must not be empty
+                        </div>
+                        <div id="fmail" class="alert alert-error  error add-top">
+                        Please provide a valid email
+                        </div>
+                        <div id="fmsg" class="alert alert-error  error add-top">
+                        Message should not be empty
+                        </div>
+                    </article>
+                </div>
+
+            <div class="row add-bottom-main">
+                    <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post">  
+
+                    <article class="span6">
+                        <textarea  id="msg" rows="3" cols="40" name="message" placeholder="Message">Message</textarea>
+                    </article>
+
+                    <article class="span6">
+                        <input size="100" type="text" name="name" id="name" placeholder="Name">
+                        <input type="text"  size="30" id="email" name="email" placeholder="email">
+                        <button type="submit" name="submit" id="submit" class="btn btn-renova-alt add-top-half">Send Message</button>
+                    </article>
+                        
+                    </form>
+            </div>
+            
+        </section><!--/ container-->        
+    </div><!--/ row-fluid-->   
+    </section><!--/ container-->       
+
+</section><!--/ page-->
+
+
+
+
+
+    <!-- page:starts-->
+    <section class="footer container-fluid section">
+        <div class="row-fluid">
+            <section class="container">
+                <div class="row">
+                    <article class="contactus span12 text-center">
+                        <a href="#" class="logo"><img alt="renova" title="renova" src="images/foot-badge.png"></a>
+                        <h1>Renova Inc <span>|</span> Box #22B <span>|</span> <br/>Coppenhagen <span>|</span> Denmark</h1>
+                    </article>
+                 </div>
+
+
+
+                 <div class="row foot-soc">
+                    <article class="span12 text-center">
+                        <nav class="social-links">
+                            <a class="facebook" href="http://facebook.com/" target="_blank">
+                                <img alt="renova" title="renova" src="images/footer_facebook.png" >
+                            </a>
+                            
+                            
+                            <a class="pinterest" href="http://pinterest.com/" target="_blank">
+                                <img alt="renova" title="renova" src="images/footer_pinterest.png">
+                            </a>
+                        </nav>
+                    </article>
+                 </div>
+
+            </section>
+        </div>
+    </section>
+
+
+
+    <section class="footer-down container-fluid section">
+        <div class="row-fluid">
+
+            <section class="container">
+                 <div class="row">
+                    <article class="span12">
+                        <div class="copyright text-center">        
+                            <p>Copyright &copy; 2013 Designova.<br/>A premium theme from <a href="http://www.designova.net">Designova</a></p>        
+                        </div>
+                    </article>
+                 </div>
+
+            </section>
+        </div>
+    </section>
+    <!--page:ends-->
+
+
+</div>
+<!--main-wrapper:ends-->
+
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script src="javascripts/jquery.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-button.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script> 
+<!-- Latest compiled and minified JavaScript -->
+<script src="javascripts/jquery.waitforimages.js"></script> 
+<script src="javascripts/modernizr.custom.js" type="text/javascript"></script>
+<script src="javascripts/waypoints.min.js" type="text/javascript"></script>
+<script src="javascripts/jquery.hoverdir.js" type="text/javascript"></script>
+<script src="javascripts/jquery.backstretch.min.js" type="text/javascript"></script>	 
+<script src="javascripts/jquery.colorbox.js" type="text/javascript"></script>  
+<script src="javascripts/jquery.isotope.min.js" type="text/javascript"></script> 
+<script src="javascripts/jquery.fancybox-1.3.4.js" type="text/javascript" ></script>
+<script defer src="javascripts/jquery.flexslider.js"></script>   
+<script src="javascripts/form-validation.js" type="text/javascript"></script>   
+<script src="javascripts/responsive-nav.js" type="text/javascript" ></script>
+<script src="javascripts/scroll.js" type="text/javascript"></script> 
+<script src="javascripts/script.js" type="text/javascript"></script> 
+
+    <script>
+        var navigation = responsiveNav("#nav", { // Selector: The ID of the wrapper
+          animate: true, // Boolean: Use CSS3 transitions, true or false
+          transition: 400, // Integer: Speed of the transition, in milliseconds
+          label: "Menu", // String: Label for the navigation toggle
+          insert: "after", // String: Insert the toggle before or after the navigation
+          customToggle: "", // Selector: Specify the ID of a custom toggle
+          openPos: "relative", // String: Position of the opened nav, relative or static
+          jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+          init: function(){}, // Function: Init callback
+          open: function(){}, // Function: Open callback
+          close: function(){} // Function: Close callback
+        });
+    </script>
+
+
+		<!-- Full Screen Background Images are defined via JS here: -->
+    <script>
+        $.backstretch([
+          "images/bg1.jpg",
+          "images/bg2.jpg",
+          "images/bg3.jpg"
+        ], {
+            fade: 3000,
+            duration: 4000
+        });
+    </script>   
+
+</body>
+</html>
