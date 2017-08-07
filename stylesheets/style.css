@@ -104,7 +104,7 @@ z-index: 2;
 
 /*** NAV ***/
 .navigation{
-	background: #E50050;
+	background: #E51955; 
 	position: absolute;
 	z-index: 102 !important;
 	width:100%;
@@ -379,7 +379,7 @@ padding-bottom: 10px;
 	line-height: 72px;
 	font-family:"Ostrich_Sans_Black";
 	color: #fff;
-	background: #E50050;
+	background: #E51955;
 }
 #intro-nav{
 	margin-top: 30px;
@@ -392,7 +392,7 @@ padding-bottom: 10px;
 #intro-nav ul li{
 	margin-bottom: 5px;
 	display: inline-block;
-	background: #E50050;
+	background: #E51955;
 }
 
 #intro-nav ul li:hover{
