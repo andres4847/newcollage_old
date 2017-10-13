@@ -957,6 +957,50 @@ text-transform: uppercase;
   border: solid 3px #000;
 }
 
+/* INSPIRATE */
+#portfolio ul.gallery {
+	margin-left: 3vw;
+	margin-right: 3vw;
+  }
+
+  #portfolio ul li {
+	font-size: 14px;
+	line-height: 1.25;
+	padding: 0 0 10px;
+  }
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#portfolio .zoom {
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+  }
+  #portfolio .zoom:hover,
+  #portfolio .zoom:active,
+  #portfolio .zoom:focus {
+	transform: scale(2.5);
+	position: relative;
+	z-index: 100;
+  }
+  @media only screen and (max-width: 768px) {
+	#portfolio ul.gallery {
+	  margin-left: 15vw;
+	  margin-right: 15vw;
+	}
+  }
+
+  .img-circle {
+    border-radius: 50%;
+}
+
 
 
 /*CONTACT*/
